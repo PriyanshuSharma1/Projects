@@ -10,12 +10,14 @@ body{
 .container{
     background-color:palevioletred;
     padding: 20px;
-    color: black;
+    color: white;
     width: 400px;
     padding: 20px;
     margin: 5px;
     border-radius: 20 px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+
     
 }
 .textarea{
@@ -26,4 +28,20 @@ body{
     font-family: sans-serif;
     color: black;
     box-sizing: border-box;
+    border: solid 2px green;
+}
+.counter-container{
+    font-size: medium;
+    display: flex;
+justify-content: space-between;
+padding: 4px;
+color: maroon;
+}
+.total-counter{
+    color: green;
+    
+}
+.remaining-counter
+{
+    color: rebeccapurple;
 }
