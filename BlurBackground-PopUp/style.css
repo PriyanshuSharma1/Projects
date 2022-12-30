@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+ }
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: url("https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+background-size: cover;
+
+}
+h1{
+    color: white;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    text-shadow:  2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.btn{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: blueviolet;
+    font-weight: 600;
+    font-size: 17px;
+
+}
+.btn:hover{
+    transition: 0.2s;
+    background-color: orangered;
+    color: white;
+    
+}
+.active.container{
+    filter: blur(5px) brightness(70%);
+
+}
+
+.popup-container{
+    position: fixed;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px;
+    background: url("https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+} 
+h4{
+     color: white(70, 70, 5);
+     letter-spacing: 2px;
+     font-size: 18;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    .btn{
+        background-color: white;
+        padding: 5px 10px;
+        color: rebeccapurple;
+        cursor: pointer;
+        margin-top: 2px;
+        width: 100px;
+        height: 30px;
+    }
+    label{
+        color: black;
+justify-content: right;  
+font-size: 20px; 
+ }
+.input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.input::placeholder{
+    color: rgb(75, 75, 75);
+    margin-top: 5px;
+    width: 300px;
+    height: 40px;
+}
+.close-icon{
+    position: absolute;
+    right: 20px;
+    color: white;
+    cursor: pointer;
+
+}
+.close-icon:hover{
+    color: orangered;
+    transition: 0.4s;
+}
