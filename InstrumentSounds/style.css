@@ -17,6 +17,8 @@ h2{
 }
 .btn{
     padding: 30px 30px;
+    width: 200px;
+    height: 150px;
     background-color: white;
     border: none;
     margin: 10px;
