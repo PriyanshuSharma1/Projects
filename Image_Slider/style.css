@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+}
+.slider_container{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+.image_container{
+    display: flex;
+}
+.btn{
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+    color: white;
+    transform: translateY(-50%);
+    opacity: .5;
+    cursor: pointer;
+}
+.btn.prev{
+    left: 10px;
+}
+.btn.next{
+    right: 10px;
+}
+.btn:hover{
+opacity: 1;
+}
